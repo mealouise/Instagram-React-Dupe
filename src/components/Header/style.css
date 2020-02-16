@@ -19,10 +19,35 @@
 
 .header__right {
     padding-right: 50px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .header__instagram {
     padding-left: 10px;
     padding-top: 7px;
+}
 
+.header__search-input {
+    width: 215px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #fafafa;
+    padding-top:4px;
+    padding-bottom: 4px;
+    border-radius: 3px;
+    border: 1px solid #dbdbdb;
+}
+
+.header__search-input::placeholder {
+    color:grey;    font-size: 14px;
+}
+
+.header__nav-icon:not(:first-child) {
+    margin-left: 15px
+}
+
+.header__nav-icon {
+    cursor: pointer;
 }

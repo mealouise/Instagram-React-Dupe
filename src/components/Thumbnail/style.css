@@ -1,0 +1,27 @@
+.thumbnail {
+    display:flex;
+}
+
+.thumbnail__img {
+    border-radius: 200px;
+    height:50px;
+    width:auto;
+    margin-right: 15px;
+}
+
+.thumbnail__details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.thumbnail__title {
+    margin:0;
+    font-size: 14px;
+}
+
+.thumbnail__description {
+    margin:0;
+    font-size: 12px;
+    color: #999;
+}

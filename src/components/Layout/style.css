@@ -18,6 +18,8 @@
     flex-direction: row;
     justify-content:space-between;
     padding-top: 60px;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .layout__sidebar {
